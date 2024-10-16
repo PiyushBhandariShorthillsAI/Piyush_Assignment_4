@@ -1,26 +1,3 @@
-When copying text into files, especially markdown (`README.md`), the structure can sometimes get distorted due to formatting issues. Here's a way to ensure the structure remains intact:
-
-### Steps to Properly Copy and Paste the README:
-
-1. **Use a Plain Text Editor**:
-   Make sure you are pasting the content into a **plain text editor** or directly into your code editor (like VSCode, Sublime Text, or any other editor you're using for the project).
-
-2. **Paste Markdown as Plain Text**:
-   When pasting content, sometimes rich text editors (like Word, Google Docs, etc.) can change the formatting. Always paste in a code editor or use the "Paste as Plain Text" option if you're copying from a web interface.
-
-3. **Markdown Preview**:
-   If you're using VSCode, you can enable the markdown preview to verify the formatting:
-   - Right-click in the `.md` file and choose "Open Preview" or press `Ctrl+Shift+V` (on Windows/Linux) or `Cmd+Shift+V` (on macOS).
-
-4. **Check for Indentation**:
-   In markdown, indentation is important for lists, code blocks, and nested items. Ensure that:
-   - Lists have the correct number of spaces or tabs (usually 2 or 4 spaces).
-   - Code blocks are wrapped with triple backticks (```) for Python or terminal commands.
-   - Nested lists/items are properly indented under their parent items.
-
-Here’s the README content again formatted so that you can directly copy it into your file:
-
----
 
 # Python Data Extractor for PDF, PPT, and DOCX
 
