@@ -9,10 +9,15 @@ class SaveData():
         self.file_path = file_path
         self.fileName = os.path.basename(file_path) 
         self.database_name = os.getenv("DATABASE_NAME")
+        # self.database_name = 'assignment4.db'
         self.table_name_text = os.getenv("TABLE_NAME_TEXT")
+        # self.table_name_text = 'text'
         self.table_name_image = os.getenv("TABLE_NAME_IMAGE")
+        # self.table_name_image = 'image'
         self.table_name_url = os.getenv("TABLE_NAME_URL")
+        # self.table_name_url = 'url'
         self.table_name_data_table = os.getenv("TABLE_NAME_DATA_TABLE")
+        # self.table_name_data_table = "data_table"
         
         # this will be used to store the extracted data and handle the errors
         self.extracted_text = dataToBeSaved.get("text", None)
